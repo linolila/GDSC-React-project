@@ -1,0 +1,79 @@
+.setting{
+    display: flex;
+    
+}
+.settingWrapper{
+    flex:9;
+    padding:20px;
+
+}
+.settingtitle{
+  display: flex;
+  align-items: center;
+    justify-content: space-between;
+}
+.settingupdate{
+    font-size: 20px;
+ margin-bottom: 20px;
+ color:lightblue;
+}
+.settingdelete{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+.settingform{
+    margin-top: 20px;
+    display: flex;
+   flex-direction: column;
+}
+.settingpp{
+    display: flex;
+    align-items: center;
+    margin:10px 0;
+}
+.settingppimg{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.settingppicon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+    cursor: pointer;
+    margin-left:10px;
+}
+.settingform > label{
+    font-size: 20px;
+    margin-top: 20px;
+   
+
+}
+
+.settinginput{
+    border:none;
+    border-bottom: 1px solid gray;
+    margin: 10px 0;
+    height: 40px;
+    font-size: 16px;
+}
+.settingbutton{
+    width: 150px;
+    border:none;
+   align-self: center;
+    border-radius: 10px;
+    background-color: teal;
+    color: aliceblue;
+    padding:10px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
