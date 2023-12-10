@@ -1,20 +1,16 @@
-# Project setup
-- select use template and choose namee for your repo
+## Blog website
+ # First
 - clone the repository
+   git clone https://github.com/linolila/GDSC-React-project.git
 - cd to the repo
+   cd GDSC-React-projects
 - ```bash 
   npm install
 ```
 # Folder Structure
 
 **component** - this folder contain all small react component used to build a page
-
-**hooks** - include all custom hooks you write in this folder
-
 **pages** - include only page components here
-
-**utils** - common funcionality shared across the projects
-
 **assets** - include images,video and other static files here
 
 
