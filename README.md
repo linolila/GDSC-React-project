@@ -4,10 +4,11 @@
    git clone https://github.com/linolila/GDSC-React-project.git
 - cd to the repo
    cd GDSC-React-projects
-- ```bash 
+   ```bash 
   npm install
-```
-# Folder Structure
+   ```
+
+## Folder Structure
 
 **component** - this folder contain all small react component used to build a page
 **pages** - include only page components here
